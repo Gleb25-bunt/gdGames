@@ -505,8 +505,8 @@ function setup() {
                     this.yVel = 0;
                     this.air = false;
                 } else {
-                    // ⭐ ГЛАВНОЕ ИЗМЕНЕНИЕ: гравитация уменьшена с 1.3 до 0.8
-                    this.yVel += 0.8;
+                    // ⭐ ГЛАВНОЕ ИЗМЕНЕНИЕ: гравитация увеличена с 0.8 до 1.8
+                    this.yVel += 1.5;
                 }
                 while (this.y > height - 99) { this.y -= 0.1 }
             } else if (this.mode === "ship") {
